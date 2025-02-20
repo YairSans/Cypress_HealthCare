@@ -1,0 +1,9 @@
+import { nameclass } from "./Ubicacion"
+let Wait1 =1500
+
+export class namemethod{
+    static name(){
+        Forgetelements.Links.Forget.click()
+        cy.wait(Wait1)
+    }
+} 

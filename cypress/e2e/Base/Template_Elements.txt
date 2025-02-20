@@ -1,0 +1,14 @@
+require('cypress-xpath');
+
+export class nameclass {
+    static get Button (){
+        return{
+            get name(){
+                return cy.xpath("").should("be.visible")
+            },
+            get name(){
+                return cy.xpath("").should("be.visible")
+            }
+        }
+    }
+}
