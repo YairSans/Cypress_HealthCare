@@ -1,5 +1,5 @@
 import { Homepage_Elem } from "./Home_Elements"
-let Wait1 =1500
+let Wait1 =500
 
 export class Homepage_Method{
     static Validate_Home_Page(){

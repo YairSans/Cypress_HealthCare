@@ -1,5 +1,5 @@
 import { Login_Elem } from "./Login_Elements"
-let Wait1 =1500
+let Wait1 =500
 
 export class Login_Method{
     static Validate_Login_Page(){

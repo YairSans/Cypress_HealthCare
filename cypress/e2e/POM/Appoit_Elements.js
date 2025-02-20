@@ -12,7 +12,7 @@ export class Appoitment_Elem {
         return cy.get("#combo_facility").should("be.visible")
     }
     static get ReadmissionCheckbox (){
-        return cy.get("#chk_hospotal_readmission").should("be.visible")
+        return cy.get('.checkbox-inline').should("be.visible")
     }
     static get Check (){
         return{
@@ -20,7 +20,7 @@ export class Appoitment_Elem {
                 return cy.get("#radio_program_medicare").should("be.visible")
             },
             get Medicaid(){
-                return cy.get("#radio_program_medicaid").should("be.visible")
+                return cy.get('#radio_program_medicaid').should("be.visible")
             },
             get None(){
                 return cy.get("#radio_program_none").should("be.visible")
